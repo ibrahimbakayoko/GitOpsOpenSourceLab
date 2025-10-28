@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/ibrahimbakayoko/GitOpsOpenSourceLab.git
     targetRevision: main
-    path: environment/dev/apps
+    path: environment/dev/app
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
