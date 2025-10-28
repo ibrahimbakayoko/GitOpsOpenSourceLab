@@ -1,0 +1,19 @@
+# environments/dev/apps/nginx-app.yaml
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: nginx
+  namespace: argocd
+spec:
+  project: dev
+  source:
+    repoURL: https://github.com/ibrahimbakayoko/GitOpsOpenSourceLab.git
+    path: apps/nginx
+    targetRevision: main
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: dev
+  syncPolicy:
+    automated:
+      selfHeal: true
+      prune: true
