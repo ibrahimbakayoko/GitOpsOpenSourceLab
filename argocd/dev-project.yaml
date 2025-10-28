@@ -7,7 +7,7 @@ spec:
   description: "Projet ArgoCD pour l'environnement de développement"
   
   sourceRepos:
-    - https://github.com/tonuser/gitops-lab.git
+    - https://github.com/ibrahimbakayoko/GitOpsOpenSourceLab.git
   
   destinations:
     - namespace: dev
