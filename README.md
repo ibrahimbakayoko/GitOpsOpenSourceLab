@@ -1,4 +1,3 @@
-# GitOpsOpenSourceLab
 # 🔧 GitOps Template Lab
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Template-blue)](https://github.com/tonuser/GitOpsTemplateLab)
