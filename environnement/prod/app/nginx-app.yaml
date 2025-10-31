@@ -8,7 +8,7 @@ spec:
   project: dev
   source:
     repoURL: https://github.com/ibrahimbakayoko/GitOpsOpenSourceLab.git
-    path: apps/nginx
+    path: app/nginx
     targetRevision: main
   destination:
     server: https://kubernetes.default.svc
