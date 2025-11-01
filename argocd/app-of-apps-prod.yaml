@@ -11,6 +11,6 @@ spec:
     path: environnement/prod/app
   destination:
     server: https://kubernetes.default.svc
-    namespace: prod
+    namespace: argocd
   syncPolicy:
     automated: {}   # pas d'auto-sync en prod, sync manuelle depuis l'UI ArgoCD
